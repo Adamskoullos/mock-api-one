@@ -9,3 +9,4 @@ Build a test mock api and deploy to Heroku for development use
 3. Fire up the json-server: `json-server --watch db.json`
 4. Make sure you have a Heroku account and activate and commit to GitHub
 5. Initialise the project and create a package.json file: `npm init`
+6. Add json server to the package.json file: `npm i json-server` so it is shipped when deployed to Heroku
