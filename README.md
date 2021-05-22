@@ -10,3 +10,6 @@ Build a test mock api and deploy to Heroku for development use
 4. Make sure you have a Heroku account and activate and commit to GitHub
 5. Initialise the project and create a package.json file: `npm init`
 6. Add json server to the package.json file: `npm i json-server` so it is shipped when deployed to Heroku
+7. Add `start` to scripts in package.json and add file `server.js`. This will act as a mini back-end on Heroku
+8. Add a `.gitignore` so the `node_modules` will not be uploaded to GitHub
+9. Make another commit to GitHub
